@@ -1,0 +1,42 @@
+.center {
+  text-align: center;
+}
+
+body {
+  background-color: aqua;
+}
+
+.container {
+  background-color: #28282b;
+  margin: auto;
+  flex-direction: column;
+  display: flex;
+  max-width: 30vw;
+  align-items: center;
+}
+
+.row button {
+  padding: 25px;
+  margin: 0 5px;
+  border: 5px solid rgb(5, 185, 240);
+  font-size: 20px;
+}
+
+.row button:hover {
+  background-color: #0baaf3;
+}
+
+.row {
+  margin: 10px 8px;
+  display: flex;
+  padding: 5px;
+}
+
+.row input {
+  margin: auto;
+  border-radius: 5px;
+  background-color: #0baaf3;
+  width: 250px;
+  height: 29px;
+  font-size: 19px;
+}
